@@ -1,0 +1,225 @@
+@font-face{
+    font-family:myFont;
+    src: url(fonts/font-awesome/FontAwesome.otf)
+}
+
+.body{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.header{
+    background-image: url("images/header-bg.png");
+    color: white;
+    font-family: sans-serif;
+}
+
+.header .navbar.navbar-default {
+    background: none;
+    border-color: transparent;
+}
+
+h1{
+    font-family: myFont, serif;
+    font-size: 40px;
+}
+
+h2{
+    font-size: 22px;
+}
+
+.header .iphone{
+    background-image: url(images/iphone5.png);
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.row{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.header .btn{
+    background-color: transparent;
+    color: white;
+    border: solid thin white;
+    font-family: sans-serif;
+    padding: 10px 15px;
+    border-radius: 0;
+    margin-top: 2%;
+
+}
+
+.border-left{
+    border-left: 3px solid deepskyblue;
+    padding-left: 26px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.grey{
+    background-color: #F4F4F4;
+    padding-top: 5%;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.grey .col-md-5{
+    padding: 20px;
+}
+
+.grey .col-md-2{
+    background-image: url(images/ipad-flat.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:350px;
+    position: static;
+    right: 0;
+    bottom: 0;
+}
+
+h3 p {
+
+    font-family: initial,sans-serif;
+    color: darkslategray;
+}
+
+h3{
+    padding-top: 0;
+    padding-bottom: 5%;
+}
+
+.sayHello{
+    background-color: transparent;
+    color: darkcyan;
+    border: solid thin darkcyan;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+.dogUp{
+    height: 500px;
+}
+.dogUp .col-md-3{
+    display: inline-table;
+}
+.dogUpYa {
+    background-image: url("images/devices.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    height: 350px;
+    margin-top: 150px;
+}
+
+.textDog{
+    padding: 30px;
+    font-size: 14px;
+    text-align: justify;
+
+}
+
+.dog{
+    margin-top: 20px;
+    background-color: transparent;
+    color: red;
+    border: solid thin red;
+    border-radius: 0;
+
+}
+
+
+.beer{
+    background-image: url(images/donate-bg.png);
+    height: 300px;
+    padding-top: 80px;
+}
+
+.beer .container-beer{
+    font-family: sans-serif;
+    color: white;
+}
+
+.beer .btn{
+    background-color: transparent;
+    border: solid thin white;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 0;
+    margin-top: 20px;
+}
+
+
+#face{
+    width: 46px;
+    height:44px;
+    background: url("images/preview.jpg") -20px 332px;
+    margin-right: 10px;
+}
+#twitter{
+    width: 46px;
+    height:44px;
+    background: url("images/preview.jpg") -60px 332px;
+    margin-right: 10px;
+}
+
+#bola{
+    width: 46px;
+    height:44px;
+    background: url("images/preview.jpg") -220px 332px;
+    margin-right: 10px;
+}
+
+#gmail {
+    padding: 10px;
+    width: 46px;
+    height:44px;
+    background: url("images/preview.jpg") -99px 332px;
+    margin-right: 10px;
+}
+
+.socialMedias{
+    height: 350px;
+    background-color: #e3dad3;
+    padding-left: 0;
+    padding-top: 80px;
+    display: inherit;
+
+}
+
+.subscription{
+    padding-left: 0;
+    text-align: center;
+    display: inline-flex;
+}
+
+.subscription p{
+    padding-right: 7px;
+    padding-top: 7px;
+    font-style: italic;
+    color: #5e5e5e;
+    display: table;
+}
+
+
+.socialMedias .list-inline{
+
+    background-color: transparent;
+    display: inline-flex;
+    padding-left: 30px;
+}
+
+.input-group{
+    width: 250px;
+}
+
+.navbar-static-bottom{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.rodape{
+    height: 50px;
+}

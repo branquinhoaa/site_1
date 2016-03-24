@@ -1,0 +1,27 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" width="114" height="115" viewBox="0 0 114 115">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: #0da9e5;
+      }
+
+      .cls-2 {
+        opacity: 0.7;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        font-size: 50px;
+        text-anchor: end;
+        font-family: "Kaushan Script";
+      }
+    </style>
+  </defs>
+  <rect id="btm_shadow" data-name="btm shadow" class="cls-1" y="4" width="100" height="100"/>
+  <rect id="shadow" class="cls-2" x="14" y="15" width="100" height="100"/>
+  <rect id="logo_bg" data-name="logo bg" class="cls-3" width="100" height="100"/>
+  <text id="p" class="cls-4" x="61" y="54.039">p</text>
+</svg>
