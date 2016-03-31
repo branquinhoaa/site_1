@@ -1,3 +1,9 @@
+@media (max-device-width: 480px) {
+ .row .iphone {
+        background-image: none;
+    }
+}
+
 @font-face{
     font-family:myFont;
     src: url(fonts/font-awesome/FontAwesome.otf)
@@ -16,7 +22,7 @@
 
 .header .navbar.navbar-default {
     background: none;
-    border-color: transparent;
+    border: none;
 }
 
 h1{
@@ -32,6 +38,8 @@ h2{
     background-image: url(images/iphone5.png);
     background-repeat: no-repeat;
     height: 300px;
+    padding-top: 50px;
+    margin-top: 20px;
 }
 
 .row{
@@ -48,6 +56,7 @@ h2{
     padding: 10px 15px;
     border-radius: 0;
     margin-top: 2%;
+    margin-bottom: 20px;
 
 }
 
@@ -64,21 +73,25 @@ h2{
     padding-top: 5%;
     margin-right: 0;
     padding-right: 0;
+    color: #0f0f0f;
+}
+
+.greyRow{
+    background-image: url(images/ipad-flat.png);
+    background-repeat: no-repeat;
+    height:450px;
+    position: static;
+    left: 0;
+    bottom: 0;
+    background-position: right bottom;
+    background-size: contain;
 }
 
 .grey .col-md-5{
     padding: 20px;
 }
 
-.grey .col-md-2{
-    background-image: url(images/ipad-flat.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:350px;
-    position: static;
-    right: 0;
-    bottom: 0;
-}
+
 
 h3 p {
 
@@ -91,7 +104,11 @@ h3{
     padding-bottom: 5%;
 }
 
-.sayHello{
+h4{
+    text-align: center;
+}
+
+.greyRow .btn{
     background-color: transparent;
     color: darkcyan;
     border: solid thin darkcyan;
@@ -99,19 +116,21 @@ h3{
     margin-bottom: 20px;
 }
 
-.dogUp{
-    height: 500px;
-}
-.dogUp .col-md-3{
-    display: inline-table;
-}
-.dogUpYa {
+.dogUp .row{
     background-image: url("images/devices.png");
     background-repeat: no-repeat;
     position: absolute;
     left: 0;
     height: 350px;
     margin-top: 150px;
+    width: 100%;
+}
+
+.dogUp{
+    height: 500px;
+}
+.dogUp .col-md-3{
+    display: inline-table;
 }
 
 .textDog{
@@ -196,7 +215,7 @@ h3{
 }
 
 .subscription p{
-    padding-right: 7px;
+    padding-right: 3px;
     padding-top: 7px;
     font-style: italic;
     color: #5e5e5e;
@@ -212,14 +231,55 @@ h3{
 }
 
 .input-group{
-    width: 250px;
+    width: 230px;
 }
 
 .navbar-static-bottom{
     margin-bottom: 0;
     padding-bottom: 0;
+    display: flex;
 }
 
-.rodape{
-    height: 50px;
+.rodape {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: small;
+    display: inline-flex;
+    background-color: white;
+}
+
+.rodape .navbar-text{
+    text-align: center;
+    margin-left: 30%;
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.rodape .btn{
+    background-position: right center;
+    color: grey;
+    border-color: gray;
+    margin-left: 30%;
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius:10px ;
+}
+
+.featureImg{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+
+.allBody{
+    margin-bottom: 50px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
 }
